@@ -5,11 +5,10 @@ function App() {
     <div className="app-container">
       <div className="main-content">
         <div className="profile-section">
-          <h1 className="name-title">Your Name</h1>
-          <p className="job-title">Software Developer & Creative Problem Solver</p>
+          <h1 className="name-title">Augustine Pedrozo</h1>
+          <p className="job-title">Software Developer & Military Veteran</p>
           <div className="status-badges">
-            <span className="status-badge">Location</span>
-            <span className="status-badge">Available for work</span>
+            <span className="status-badge">Columbus, OH</span>
           </div>
         </div>
 
@@ -20,28 +19,25 @@ function App() {
               Hello, my name is Augustine Pedrozo. I'm a full-stack software
               developer who builds reliable and scalable web applications. I
               work with both C#/.NET and Node.js on the backend, and React,
-              HTML, CSS, and JavaScript on the frontend to deliver complete
-              solutions from design to deployment. I have strong experience
-              with database design and management using Microsoft SQL Server
-              and MySQL, including creating efficient table structures and ER
+              HTML, CSS, and JavaScript on the frontend. I have strong experience with
+              database design and management using Microsoft SQL Server and
+              MySQL, including creating efficient table structures and ER
               diagrams. I'm comfortable developing RESTful web APIs and
-              integrating them into modern web interfaces. I use tools like
-              Git, Visual Studio, Visual Studio Code, and Cursor daily to
-              streamline development and maintain clean, version-controlled
-              projects. My goal is to create well-structured, performant
-              applications that are intuitive for users and maintainable for
-              teams.
+              integrating them into modern web interfaces. I use tools like Git,
+              Visual Studio, Visual Studio Code, and Cursor to streamline
+              development and maintain clean, version-controlled projects. My
+              goal is to create well-structured, performant applications that
+              are intuitive for users and maintainable.
             </p>
             <p>
               When I'm not coding, you'll find me exploring new technologies,
-              contributing to open-source projects, or sharing knowledge with
-              the developer community. I believe in continuous learning and
+              contributing to open-source projects via GitHub, or working on desktop computers. I believe in continuous learning and
               staying up-to-date with the latest trends in technology.
             </p>
             <p>
               I'm always excited to collaborate on interesting projects and
               connect with fellow developers. Feel free to reach out if you'd
-              like to work together or just have a chat about technology!
+              like to work together!
             </p>
           </div>
         </div>
@@ -52,11 +48,14 @@ function App() {
             <div className="skills-list">
               <div className="skill-item">
                 <div className="skill-header">
-                  <span className="skill-name">JavaScript/TypeScript</span>
-                  <span className="skill-percentage">90%</span>
+                  <span className="skill-name">JavaScript</span>
+                  <span className="skill-percentage">75%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-progress" style={{ width: "90%" }}></div>
+                  <div
+                    className="skill-progress"
+                    style={{ width: "75%" }}
+                  ></div>
                 </div>
               </div>
               <div className="skill-item">
@@ -65,7 +64,10 @@ function App() {
                   <span className="skill-percentage">85%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-progress" style={{ width: "85%" }}></div>
+                  <div
+                    className="skill-progress"
+                    style={{ width: "85%" }}
+                  ></div>
                 </div>
               </div>
               <div className="skill-item">
@@ -74,16 +76,22 @@ function App() {
                   <span className="skill-percentage">80%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-progress" style={{ width: "80%" }}></div>
+                  <div
+                    className="skill-progress"
+                    style={{ width: "80%" }}
+                  ></div>
                 </div>
               </div>
               <div className="skill-item">
                 <div className="skill-header">
-                  <span className="skill-name">Python</span>
-                  <span className="skill-percentage">75%</span>
+                  <span className="skill-name">C#</span>
+                  <span className="skill-percentage">85%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-progress" style={{ width: "75%" }}></div>
+                  <div
+                    className="skill-progress"
+                    style={{ width: "85%" }}
+                  ></div>
                 </div>
               </div>
             </div>
@@ -95,9 +103,9 @@ function App() {
               <span className="interest-tag">Web Development</span>
               <span className="interest-tag">Machine Learning</span>
               <span className="interest-tag">UI/UX Design</span>
-              <span className="interest-tag">Open Source</span>
-              <span className="interest-tag">Mobile Apps</span>
-              <span className="interest-tag">Cloud Computing</span>
+              <span className="interest-tag">Game Development</span>
+              <span className="interest-tag">Object Oriented Programming</span>
+              <span className="interest-tag">Automation</span>
             </div>
           </div>
         </div>
@@ -109,7 +117,7 @@ function App() {
               I'm always interested in hearing about new opportunities and
               exciting projects. Let's create something amazing together!
             </p>
-            <a href="mailto:your.email@example.com" className="cta-button">
+            <a href="mailto:augustine.pedrozo@outlook.com" className="cta-button">
               Get In Touch
             </a>
           </div>
