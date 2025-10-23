@@ -90,19 +90,43 @@ function App() {
                   ></div>
                 </div>
               </div>
-              <div className="skill-item">
-                <div className="skill-header">
-                  <span className="skill-name">C#</span>
-                  <span className="skill-percentage">85%</span>
-                </div>
-                <div className="skill-bar">
-                  <div
-                    className="skill-progress"
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-              </div>
-            </div>
+                      <div className="skill-item">
+                        <div className="skill-header">
+                          <span className="skill-name">C#</span>
+                          <span className="skill-percentage">85%</span>
+                        </div>
+                        <div className="skill-bar">
+                          <div
+                            className="skill-progress"
+                            style={{ width: "85%" }}
+                          ></div>
+                        </div>
+                      </div>
+                      <div className="skill-item">
+                        <div className="skill-header">
+                          <span className="skill-name">MySQL</span>
+                          <span className="skill-percentage">50%</span>
+                        </div>
+                        <div className="skill-bar">
+                          <div
+                            className="skill-progress"
+                            style={{ width: "50%" }}
+                          ></div>
+                        </div>
+                      </div>
+                      <div className="skill-item">
+                        <div className="skill-header">
+                          <span className="skill-name">Microsoft SQL</span>
+                          <span className="skill-percentage">50%</span>
+                        </div>
+                        <div className="skill-bar">
+                          <div
+                            className="skill-progress"
+                            style={{ width: "50%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
           </div>
 
           <div className="interests-card">
