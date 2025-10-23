@@ -1,4 +1,5 @@
 import "./App.css";
+import profilePhoto from "./assets/profilephoto2.jpg";
 
 function App() {
   return (
@@ -14,6 +15,13 @@ function App() {
 
         <div className="biography-section">
           <h2 className="section-title">About Me</h2>
+          <div className="profile-photo-container">
+            <img 
+              src={profilePhoto} 
+              alt="Augustine Pedrozo" 
+              className="profile-photo"
+            />
+          </div>
           <div className="biography-content">
             <p>
               Hello, my name is Augustine Pedrozo. I'm a full-stack software
@@ -117,9 +125,17 @@ function App() {
               I'm always interested in hearing about new opportunities and
               exciting projects. Let's create something amazing together!
             </p>
-            <a href="mailto:augustine.pedrozo@outlook.com" className="cta-button">
-              Get In Touch
-            </a>
+            <div className="contact-links">
+              <a href="https://github.com/a-pedrozo" target="_blank" rel="noopener noreferrer" className="contact-link github-link">
+                GitHub
+              </a>
+              <a href="https://linkedin.com/in/augustine-pedrozo" target="_blank" rel="noopener noreferrer" className="contact-link linkedin-link">
+                LinkedIn
+              </a>
+              <a href="mailto:augustine.pedrozo@outlook.com" className="contact-link email-link">
+                Email
+              </a>
+            </div>
           </div>
         </div>
       </div>
