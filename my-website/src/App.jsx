@@ -156,8 +156,8 @@ function App() {
               <a href="https://linkedin.com/in/augustine-pedrozo" target="_blank" rel="noopener noreferrer" className="contact-link linkedin-link">
                 LinkedIn
               </a>
-              <a href="mailto:augustine.pedrozo@outlook.com" className="contact-link email-link">
-                Email
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="contact-link resume-link">
+                Resume
               </a>
             </div>
           </div>
