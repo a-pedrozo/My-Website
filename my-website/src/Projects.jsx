@@ -9,16 +9,16 @@ const Projects = () => {
       description: "A responsive portfolio website built with React and Vite, showcasing my skills and projects with a modern dark theme.",
       status: "In Progress",
       technologies: ["React", "JavaScript", "CSS", "Vite"],
-      github: "https://github.com/a-pedrozo/portfolio",
+      github: "https://github.com/a-pedrozo/My-Website",
       live: "#"
     },
     {
       id: 2,
-      title: "Work Title 2",
-      description: "This is a placeholder for a future project",
-      status: "Penidng",
-      technologies: [],
-      github: "https://github.com/a-pedrozo/ecommerce-app",
+      title: "AI Chatbot",
+      description: "A chatbot built with React and Node.js that uses the OpenAI API to generate responses to user questions.",
+      status: "In Progress",
+      technologies: ["React", "Node.js", "OpenAI API"],
+      github: "https://github.com/a-pedrozo/AI-Chatbot",
       live: "#"
     },
     {
