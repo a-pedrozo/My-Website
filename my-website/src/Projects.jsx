@@ -7,53 +7,53 @@ const Projects = () => {
       id: 1,
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website built with React and Vite, showcasing my skills and projects with a modern dark theme.",
-      status: "Complete",
+      status: "In Progress",
       technologies: ["React", "JavaScript", "CSS", "Vite"],
       github: "https://github.com/a-pedrozo/portfolio",
       live: "#"
     },
     {
       id: 2,
-      title: "E-Commerce Web Application",
-      description: "Full-stack e-commerce platform with user authentication, product management, and payment integration using C#/.NET and React.",
-      status: "In Progress",
-      technologies: ["C#", ".NET", "React", "SQL Server", "Stripe API"],
+      title: "Work Title 2",
+      description: "This is a placeholder for a future project",
+      status: "Penidng",
+      technologies: [],
       github: "https://github.com/a-pedrozo/ecommerce-app",
       live: "#"
     },
     {
       id: 3,
-      title: "Task Management System",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking capabilities.",
-      status: "In Progress",
-      technologies: ["Node.js", "Express", "React", "Socket.io", "MongoDB"],
+      title: "Work Title 3",
+      description: "This is a placeholder for a future project",
+      status: "Pending",
+      technologies: [],
       github: "https://github.com/a-pedrozo/task-manager",
       live: "#"
     },
     {
       id: 4,
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard with location-based forecasts, historical data visualization, and mobile-responsive design.",
-      status: "Complete",
-      technologies: ["JavaScript", "HTML", "CSS", "Weather API", "Chart.js"],
+      title: "Work Title 4",
+      description: "This is a placeholder for a future project",
+      status: "Pending",
+      technologies: [],
       github: "https://github.com/a-pedrozo/weather-dashboard",
       live: "#"
     },
     {
       id: 5,
-      title: "Machine Learning Model Deployment",
-      description: "End-to-end machine learning pipeline with model training, API deployment, and web interface for predictions.",
-      status: "In Progress",
-      technologies: ["Python", "Flask", "Scikit-learn", "Docker", "AWS"],
+      title: "Work Title 5",
+      description: "This is a placeholder for a future project",
+      status: "Penidng",
+      technologies: [],
       github: "https://github.com/a-pedrozo/ml-deployment",
       live: "#"
     },
     {
       id: 6,
-      title: "Database Management Tool",
-      description: "Web-based database administration tool with query builder, data visualization, and user management features.",
-      status: "Complete",
-      technologies: ["C#", "ASP.NET Core", "Entity Framework", "SQL Server", "Bootstrap"],
+      title: "Work Title 6",
+      description: "This is a placeholder for a future project",
+      status: "pending",
+      technologies: [],
       github: "https://github.com/a-pedrozo/db-manager",
       live: "#"
     }
@@ -69,7 +69,7 @@ const Projects = () => {
         {/* Header Section */}
         <div className="projects-header">
           <div className="header-content">
-            <h1 className="projects-title">#projects</h1>
+            <h1 className="projects-title">My Projects</h1>
             <Link to="/" className="view-all-link">← Back to Home</Link>
           </div>
           <div className="header-line"></div>
