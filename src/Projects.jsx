@@ -9,7 +9,7 @@ const Projects = () => {
       description: "A responsive portfolio website built with React and Vite, showcasing my skills and projects with a modern dark theme.",
       status: "In Progress",
       technologies: ["React", "JavaScript", "CSS", "Vite"],
-      github: "https://github.com/a-pedrozo/My-Website",
+      github: "https://github.com/a-pedrozo/Website",
       live: "#"
     },
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       id: 5,
       title: "Work Title 5",
       description: "This is a placeholder for a future project",
-      status: "Penidng",
+      status: "Pending",
       technologies: [],
       github: "https://github.com/a-pedrozo/ml-deployment",
       live: "#"
@@ -52,7 +52,7 @@ const Projects = () => {
       id: 6,
       title: "Work Title 6",
       description: "This is a placeholder for a future project",
-      status: "pending",
+      status: "Pending",
       technologies: [],
       github: "https://github.com/a-pedrozo/db-manager",
       live: "#"
